@@ -1,0 +1,7 @@
+The files in this repository describe how Homebrew installs VocalCode. They may
+be used and redistributed for that purpose.
+
+VocalCode itself is proprietary software. Installing or using the application is
+subject to the terms presented by the official VocalCode distribution. This tap
+does not grant rights to modify, repackage or redistribute the application beyond
+the permissions stated by its publisher.

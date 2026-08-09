@@ -1,0 +1,23 @@
+name: validate
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add tap
+        run: brew tap wudaming00/vocalcode "$GITHUB_WORKSPACE"
+      - name: Audit cask
+        run: brew audit --cask --strict wudaming00/vocalcode/vocalcode
+      - name: Verify livecheck
+        run: brew livecheck --cask wudaming00/vocalcode/vocalcode
