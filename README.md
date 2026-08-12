@@ -43,6 +43,6 @@ brew uninstall --zap --cask vocalcode
 ## Official links
 
 - Website: <https://vocalcode.app/>
-- Releases: <https://github.com/wudaming00/vocalcode-docs/releases>
+- Release metadata: <https://vocalcode.app/latest.json>
 - Documentation and support: <https://github.com/wudaming00/vocalcode-docs>
 - Developer: <https://github.com/wudaming00>
