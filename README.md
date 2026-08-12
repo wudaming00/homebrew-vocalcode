@@ -1,8 +1,9 @@
-# Homebrew tap for VocalCode
+# VocalCode Homebrew Cask (Official)
 
-Official upstream Homebrew cask for
-[VocalCode](https://vocalcode.app/) — local push-to-talk dictation for AI
-coding on Apple silicon macOS.
+This is the official Homebrew tap for
+[VocalCode](https://vocalcode.app/) — on-device, push-to-talk voice input for
+AI coding on Apple silicon macOS. VocalCode is developed and maintained by
+[Daming Wu](https://github.com/wudaming00).
 
 ## Install
 
@@ -39,4 +40,9 @@ To remove saved settings, models, licence state and the optional login agent too
 brew uninstall --zap --cask vocalcode
 ```
 
-Support and documentation: <https://github.com/wudaming00/vocalcode-docs>
+## Official links
+
+- Website: <https://vocalcode.app/>
+- Releases: <https://github.com/wudaming00/vocalcode-docs/releases>
+- Documentation and support: <https://github.com/wudaming00/vocalcode-docs>
+- Developer: <https://github.com/wudaming00>
