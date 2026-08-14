@@ -1,6 +1,6 @@
 cask "vocalcode" do
-  version "1.0.9"
-  sha256 "4c8516e7db170ace2ce6a121950ed9f715013ee75d7b4f7a07d04ca2c2e29877"
+  version "1.0.11"
+  sha256 "aa661989d02b325e575b0c92bc8b6725a32d86452b264c4fab7730d11d6f1529"
 
   url "https://github.com/wudaming00/vocalcode-docs/releases/download/v#{version}/VocalCode-#{version}.dmg"
   name "VocalCode"
