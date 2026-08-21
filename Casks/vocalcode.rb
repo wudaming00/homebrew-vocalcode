@@ -1,8 +1,8 @@
 cask "vocalcode" do
-  version "1.0.13"
-  sha256 "8e7292dce534d0c0f73b2a13a950666729994382b502bf3809c62c4a13756c3d"
+  version "1.0.16"
+  sha256 "5b5cc701fdf1d75744bd6f8090f05d9fa3b9f4df1efc99f7aa699231e2bf5e80"
 
-  url "https://github.com/wudaming00/vocalcode-docs/releases/download/v#{version}/VocalCode-#{version}.dmg"
+  url "https://vocalcode.app/VocalCode-#{version}.dmg"
   name "VocalCode"
   desc "Local push-to-talk voice input for AI coding"
   homepage "https://vocalcode.app/"
