@@ -1,6 +1,6 @@
 cask "vocalcode" do
-  version "1.0.16"
-  sha256 "5b5cc701fdf1d75744bd6f8090f05d9fa3b9f4df1efc99f7aa699231e2bf5e80"
+  version "1.2.0"
+  sha256 "fc54ef6d173d771dcd5a2d18b3fae59bf056a965c88018b2e1e18e3cc53fab5b"
 
   url "https://vocalcode.app/VocalCode-#{version}.dmg"
   name "VocalCode"
